@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+#sound-container{
+    display: none;
+}
+.sound:hover #sound-container{
+    display: block;
+}
+.songlistli{
+    width: 100%;
+    cursor: pointer;
+}
+.songlist{
+    width: 100%;
+}
+.red{
+    color: red;
+}
